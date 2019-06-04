@@ -2,6 +2,7 @@
 # emqx_kafka_bridge(emqx V3.1.* kafka插件)
 
 This is a plugin for the EMQX broker that sends all messages received by the broker to kafka.注意：需要首先安装 erlang/opt 21+版本。
+## V2.x版的插件请参考 https://github.com/w3yyb/emq_kafka_bridge
 
 ## Build the EMQX broker
 
