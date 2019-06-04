@@ -39,7 +39,8 @@ This is a plugin for the EMQX broker that sends all messages received by the bro
 
 Configuration
 ----------------------
-You will have to edit the configurations of the bridge to set the kafka Ip address and port.
+You will have to edit the configurations of the bridge to set the kafka `Ip address and port`.
+and  `afka.payloadtopic = Payload`
 
 Edit the file `emq-relx/deps/emqx_kafka_bridge/etc/emqx_kafka_bridge.conf`
 
@@ -66,7 +67,7 @@ kafka.partitionstrategy = strict_round_robin
 ## payload topic.
 ##
 ## Value: string
-kafka.payloadtopic = Processing
+kafka.payloadtopic = Payload
 
 
 ```
