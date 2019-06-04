@@ -1,7 +1,7 @@
 
-# emqx_kafka_bridge
+# emqx_kafka_bridge(emqx V3.1.* kafka插件)
 
-This is a plugin for the EMQX broker that sends all messages received by the broker to kafka.
+This is a plugin for the EMQX broker that sends all messages received by the broker to kafka.注意：需要首先安装 erlang/opt 21+版本。
 
 ## Build the EMQX broker
 
@@ -10,7 +10,8 @@ This is a plugin for the EMQX broker that sends all messages received by the bro
    We need to clone the EMQX project [GITHUB](https://github.com/emqx/emqx-rel)
 
 ```shell
-  git clone https://github.com/emqx/emqx-rel.git
+  wget https://github.com/emqx/emqx-rel/archive/v3.1.1.zip
+  unzip v3.1.1.zip
 ```
 
 2. Add EMQ Kafka bridge as a DEPS
