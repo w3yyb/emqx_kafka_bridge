@@ -130,7 +130,7 @@ format_payload(Message) ->
     Payload = [{action, message_publish},
         {device_id, Message#message.from},
         {username, Username},
-        {topic, Topic},
+        {mqtttopic, Topic},
         {payload, MsgPayload64},
         {ts, emqx_time:now_secs(Message#message.timestamp)}],
 
